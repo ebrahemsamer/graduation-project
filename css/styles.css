@@ -1,0 +1,139 @@
+body
+{
+    padding: 50px 0px 0px 0px ;
+    z-index: 0;
+    
+}
+
+.bg-inverse
+{
+    background: black !important;
+}
+
+.team-btn
+{
+    border-radius: 0px;
+    margin-left:50%;
+}
+.jumbotron
+{
+    background: #1d1d22;
+    color: rgb(224, 224, 224);
+    border-radius: 0px;
+}
+#accordion
+{
+    margin-top: 100px;
+    min-height: 500px;
+}
+#accordion h2 , .flowchart h2 , .team h2
+{
+     padding: 10px;
+     margin-bottom: 50px;
+}
+
+.flowchart p
+{
+    text-align: center;
+}
+.flowchart
+{
+    /*min-height: 1000px;*/
+}
+.team
+{
+    min-height: 350px;
+    background: rgb(255, 249, 235);
+}
+.team .row
+{
+    margin-bottom: 50px;
+}
+.team .figure-caption
+{
+   margin-top: 10px;
+}
+/* Start Footer  */
+.footer ul li
+{
+    margin-left: 10px;
+}
+.footer h5
+{
+    color:floralwhite;
+}
+.footer
+{
+    padding: 40px 0 0 0; 
+    background: black;
+    min-height: 250px;
+}
+.footer p{
+    margin-top: 30px;
+    color:rgb(177, 173, 165);
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+/* End Footer */
+.contact
+{
+    min-height: 400px;
+}
+.contact textarea{
+    max-height: 150px;
+    min-height: 100px;
+}
+.contact h2
+{
+    margin-bottom: 20px;
+}
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 300px; 
+}
+/* start  Carousel */
+/* End Carousel  */
+
+
+/* Start Team */
+.team figure img 
+{
+    margin-left: 5px;
+}
+.team .figure figcaption p {
+    transition: .6s;
+}
+
+.team figure figcaption p
+{
+    opacity: 0;
+}
+.team figure img:hover ~ figcaption p
+{
+     opacity: 1;
+}
+
+/* another copy */
+
+
+thead th
+{
+    text-align : center;
+    background: black;
+    color: floralwhite ;
+}
+.table td
+{
+    vertical-align: middle;
+}
+
+tbody tr td img
+{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* End Team */
